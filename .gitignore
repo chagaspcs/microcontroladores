@@ -1,0 +1,11 @@
+*.exe
+*.o
+*.obj
+*.bc
+*.pdf
+*.bmp
+*.jpg
+*.pdsbak
+*.workspace
+*.png
+/teoria
