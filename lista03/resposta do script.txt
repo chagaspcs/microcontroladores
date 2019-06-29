@@ -1,0 +1,2 @@
+O pior DNL negativo do conversor eh -5.000000e-01 LSB e o pior caso positivo eh 5.000000e-01 LSB
+O pior INL negativo do conversor eh -3.532463e-01 LSB e o pior caso positivo eh 2.953712e-01 LSB

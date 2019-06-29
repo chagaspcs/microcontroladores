@@ -22,7 +22,7 @@ saida = csvread('micro.csv', 1, 0);
 
 nbit = 8;
 %amostras?????????????? minha dúvida!!
-amostras = 10;
+amostras = 4;
 
 passos = V/((2^nbit));
 
@@ -94,7 +94,8 @@ DNL = 0;
 aux = hist(grafico,2^nbit);
 
 dnl = (aux./amostras)-1;
-dnl = [0.1 dnl(2:31) 0.1];
+% dnl = [0.1 dnl(2:31) 0.1];
+dnl = [0.1 dnl(2:255) 0.1];
 figure;
 plot([1:2^nbit],dnl);
 grid on;
