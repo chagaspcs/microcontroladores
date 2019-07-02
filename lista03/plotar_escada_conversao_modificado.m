@@ -4,6 +4,7 @@
 % Histogram Testing Determines DNL and INL Errors
 % http://www.maxim-ic.com/
 % Thiago Brito
+% Alterado por: Patrick Chagas dos Santos em 29/06/2019.
 %-------------------------------------------------%
 
 clear all
@@ -21,7 +22,7 @@ V = 4.902344;
 saida = csvread('micro.csv', 1, 0);
 
 nbit = 8;
-%amostras?????????????? minha dúvida!!
+%amostras?????????????? minha dÃºvida!!
 amostras = 4;
 
 passos = V/((2^nbit));
