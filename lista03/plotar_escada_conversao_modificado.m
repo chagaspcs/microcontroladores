@@ -3,7 +3,8 @@
 % APPLICATION NOTE 2085
 % Histogram Testing Determines DNL and INL Errors
 % http://www.maxim-ic.com/
-% Thiago Brito
+% Autor: Thiago Brito
+% Alterado por: Patrick Chagas dos Santos em 29/06/2019.
 %-------------------------------------------------%
 
 clear all
@@ -20,8 +21,10 @@ V = 4.902344;
 % saida = csvread('teste_verilog8.csv', 1, 0);
 saida = csvread('micro.csv', 1, 0);
 
+%resoluçao do ADC
 nbit = 8;
-%amostras?????????????? minha d�vida!!
+
+%relação do DAC para ADC: 1024/256
 amostras = 4;
 
 passos = V/((2^nbit));
